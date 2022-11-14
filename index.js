@@ -19,10 +19,9 @@ function showdata() {
   let perhadamount = FinalAmount / people;
   console.log("perhadamount", perhadamount);
 
-  totalTipAmountshow.innerText = `Tip:-    $${Math.floor(totaltipamount)}:00`;
-  totalamountshow.innerText = `Total Amount:- $${Math.floor(FinalAmount)}:00`;
-  tipPetipPerheadshowrheads.innerText = `Tip Per Person:-   $${Math.floor(tipamountper)}:00`;
-  totalamountperheadshow.innerText = `Total Per Person:-  $${Math.floor(perhadamount)}:00`;
+  totalTipAmountshow.innerText = `Tip Amount :-    $${Math.floor(totaltipamount)}:00`;
+  tipPetipPerheadshowrheads.innerText = `Tip Per Person :-   $${Math.floor(tipamountper)}:00`;
+  totalamountperheadshow.innerText = `Total Amount :-  $${Math.floor(perhadamount)}:00`;
 }
 showdata();
 function submit() {
